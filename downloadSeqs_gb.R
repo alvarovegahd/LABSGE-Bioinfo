@@ -1,6 +1,6 @@
 """
-#Descargador de secuencias en formato GenBank, que genera un archivo por especie a partir de una 
-lista de especiesconteniendo todos los registros disponibles en el NCBI, v. Demo Alvaro Vega, 2017
+# Descargador de secuencias en formato GenBank, que genera un archivo por especie a partir de una 
+lista de especies conteniendo todos los registros disponibles en el NCBI, v. Demo Alvaro Vega, 2017
 Para ejecutar este programa, modifique las variables directorioDeTrabajo y archivo, tomando en 
 consideracion las anotaciones a estas variables #
 
