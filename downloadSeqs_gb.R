@@ -11,7 +11,7 @@ https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html
 
 """
 #Esta es la direccion del folder que contiene el archivo .csv y en el cual se depositaran los archivos resultantes
-directorioDeTrabajo="/home/alvaro/Documents/LABSGE Federico Alvaro/descargarSecs/Prueba1" 
+directorioDeTrabajo="/home/alvaro/Documents/LABSGE Federico Alvaro/descargarSecs/Prueba1"
 #Archivo separado por comas que contiene la lista de especies a descargar archivos del genBank y encabezado Sp
 archivo="especies.csv" 
 #----------------------------------------------------------------------------
