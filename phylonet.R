@@ -1,4 +1,5 @@
-# The user should change the last two lines of this file and then, run the entire code
+# The user should change the last two lines of this file and then run all the lines of this script
+# A csv species file with just one column with a header "Sp" and a species name per row is required
 
 #--------------------------------------------------------------------------------------------------------------------
 # Load required libraries and set working directory
@@ -12,6 +13,9 @@ download_sequences = function(speciesFile,gene_Search,nSeq=1,
   sink(logFile, append=TRUE)
   sink(logFile, append=TRUE, type="message")
 
+  # Import csv as object named "species"
+  species <- read.csv(speciesFile)
+  
   # In each iteration, a multifasta file is downloaded per species
   line=1
 
